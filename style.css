@@ -224,31 +224,31 @@ h2 {
     margin-top: 3rem;
 }
 
-#publications ul {
-    list-style-type: none;
-    padding-left: 1rem;
+.pub ul {
+    margin-top: 0.6rem;
+    padding-left: 1.2rem;
     color: #ccc;
 }
 
-#publications li {
-    margin-bottom: 1.5rem;
-    line-height: 1.7;
+.pub ul li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
-#publications strong {
+.pub strong {
     color: #f2f2f2;
 }
 
-#publications em {
+.pub em {
     color: #ddd;
     font-style: italic;
 }
 
-#publications a {
+.pub a {
     color: #66aaff;
     text-decoration: none;
 }
 
-#publications a:hover {
+.pub a:hover {
     text-decoration: underline;
 }
