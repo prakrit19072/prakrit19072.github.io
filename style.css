@@ -77,3 +77,46 @@ footer {
         transform: translateY(0);
     }
 }
+
+hr.divider {
+    margin: 2.5rem auto;
+    width: 60%;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.edu-item,
+.job {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.edu-item h3,
+.job h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.year {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.job ul {
+    margin-top: 0.4rem;
+    padding-left: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.job ul li {
+    margin-bottom: 0.4rem;
+}
