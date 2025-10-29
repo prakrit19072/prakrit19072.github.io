@@ -112,6 +112,7 @@ h2 {
     margin-bottom: 2rem;
     color: #fff;
     padding-left: 0.6rem;
+    border-left: 4px solid #66aaff;
 }
 
 .job {
