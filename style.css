@@ -263,3 +263,13 @@ h2 {
     transform: scale(1.1);
     filter: brightness(1.2) invert(0.9) sepia(1) hue-rotate(30deg);
 }
+a {
+    color: #99cfff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c2e0ff;
+    text-decoration: underline;
+}
