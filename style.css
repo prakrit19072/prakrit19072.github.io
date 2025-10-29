@@ -9,7 +9,9 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #0d0d0d;
+    /* dark background */
     color: #f2f2f2;
+    /* default text color */
     line-height: 1.6;
     display: flex;
     justify-content: center;
@@ -23,24 +25,27 @@ body {
     animation: fadeIn 0.8s ease-in;
 }
 
+/* HEADINGS */
 h1 {
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    color: #ffffff;
 }
 
 .subtitle {
     font-size: 1.1rem;
-    color: #666;
+    color: #aaa;
     margin-bottom: 2rem;
 }
 
 .description {
-    color: #333;
+    color: #ddd;
     font-size: 1rem;
     margin-bottom: 2rem;
 }
 
+/* LINKS */
 .links {
     display: flex;
     justify-content: center;
@@ -50,10 +55,11 @@ h1 {
 }
 
 .links a {
-    color: #0077cc;
+    color: #66aaff;
     text-decoration: none;
     font-weight: 500;
     position: relative;
+    transition: color 0.2s ease;
 }
 
 .links a::after {
@@ -63,21 +69,27 @@ h1 {
     left: 0;
     width: 0;
     height: 2px;
-    background: #0077cc;
+    background: #66aaff;
     transition: width 0.3s ease;
+}
+
+.links a:hover {
+    color: #99cfff;
 }
 
 .links a:hover::after {
     width: 100%;
 }
 
+/* DIVIDERS */
 hr.divider {
     margin: 2.5rem auto;
     width: 60%;
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #333;
 }
 
+/* SECTIONS */
 section {
     text-align: left;
     margin-bottom: 3rem;
@@ -86,8 +98,8 @@ section {
 h2 {
     font-size: 1.4rem;
     margin-bottom: 1rem;
-    color: #111;
-    border-left: 4px solid #0077cc;
+    color: #ffffff;
+    border-left: 4px solid #66aaff;
     padding-left: 0.6rem;
 }
 
@@ -101,6 +113,7 @@ h2 {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 0.3rem;
+    color: #f0f0f0;
 }
 
 .year {
@@ -112,20 +125,22 @@ h2 {
 .job ul {
     margin-top: 0.4rem;
     padding-left: 1.2rem;
-    color: #333;
+    color: #ccc;
 }
 
 .job ul li {
     margin-bottom: 0.5rem;
 }
 
+/* FOOTER */
 footer {
     margin-top: 2rem;
     font-size: 0.85rem;
-    color: #aaa;
+    color: #777;
     text-align: center;
 }
 
+/* ANIMATIONS */
 @keyframes fadeIn {
     from {
         opacity: 0;
