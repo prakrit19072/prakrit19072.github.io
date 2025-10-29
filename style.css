@@ -205,7 +205,7 @@ h2 {
 .profile-img {
     width: 100%;
     max-width: 420px;
-    height: 300px;
+    height: 350px;
     object-fit: cover;
     object-position: top;
     border-radius: 10px;
