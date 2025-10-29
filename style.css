@@ -202,3 +202,17 @@ h2 {
         text-align: left;
     }
 }
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    border: 2px solid #222;
+}
+.profile-img:hover {
+    box-shadow: 0 0 20px rgba(102, 170, 255, 0.3);
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
