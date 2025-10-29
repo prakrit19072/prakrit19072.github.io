@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     padding: 3rem 2rem;
 }
 
@@ -28,7 +27,7 @@ body {
     animation: fadeIn 0.8s ease-in;
 }
 
-/* LEFT SIDEBAR */
+/* SIDEBAR (LEFT) */
 .sidebar {
     flex: 0 0 35%;
     display: flex;
@@ -102,7 +101,7 @@ footer {
     color: #777;
 }
 
-/* RIGHT CONTENT */
+/* MAIN CONTENT (RIGHT) */
 .content {
     flex: 1;
     text-align: left;
