@@ -273,3 +273,10 @@ a:hover {
     color: #c2e0ff;
     text-decoration: underline;
 }
+.hobbies {
+    color: #aaa;
+    font-size: 0.95rem;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
