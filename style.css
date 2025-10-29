@@ -104,8 +104,8 @@ footer {
 .icon-img {
     width: 34px;
     height: 34px;
-    opacity: 0.9;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0.95;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .icon-img:hover {
@@ -113,9 +113,10 @@ footer {
     transform: scale(1.1);
 }
 
-/* Codeforces logo sizing */
+/* Codeforces logo fix */
 .codeforces-icon {
-    width: 48px;
+    width: 90px;
+    /* fits CF’s wider logo */
     height: auto;
     opacity: 0.95;
 }
