@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -7,63 +7,123 @@
 }
 
 body {
+    font-family: 'Inter', sans-serif;
     background-color: #fafafa;
     color: #222;
-    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
+    padding: 3rem 1.2rem;
 }
 
 .container {
-    max-width: 600px;
-    padding: 1.5rem;
-    animation: fadeIn 1s ease-in;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in;
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 .subtitle {
     font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 1.5rem;
+    color: #666;
+    margin-bottom: 2rem;
 }
 
 .description {
-    font-size: 1rem;
-    line-height: 1.6;
     color: #333;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    gap: 1.2rem;
+    gap: 1.4rem;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 .links a {
-    color: #007acc;
+    color: #0077cc;
     text-decoration: none;
     font-weight: 500;
-    border-bottom: 1px solid transparent;
-    transition: all 0.2s ease;
+    position: relative;
 }
 
-.links a:hover {
-    border-bottom: 1px solid #007acc;
+.links a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0077cc;
+    transition: width 0.3s ease;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+hr.divider {
+    margin: 2.5rem auto;
+    width: 60%;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+section {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #111;
+    border-left: 4px solid #0077cc;
+    padding-left: 0.6rem;
+}
+
+.edu-item,
+.job {
+    margin-bottom: 1.5rem;
+}
+
+.edu-item h3,
+.job h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.year {
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.job ul {
+    margin-top: 0.4rem;
+    padding-left: 1.2rem;
+    color: #333;
+}
+
+.job ul li {
+    margin-bottom: 0.5rem;
 }
 
 footer {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 0.85rem;
-    color: #888;
+    color: #aaa;
+    text-align: center;
 }
 
 @keyframes fadeIn {
@@ -76,47 +136,4 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-hr.divider {
-    margin: 2.5rem auto;
-    width: 60%;
-    border: none;
-    border-top: 1px solid #ddd;
-}
-
-h2 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    color: #222;
-}
-
-.edu-item,
-.job {
-    margin-bottom: 1.5rem;
-    text-align: left;
-}
-
-.edu-item h3,
-.job h3 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.3rem;
-}
-
-.year {
-    color: #777;
-    font-size: 0.9rem;
-    margin-top: 0.2rem;
-}
-
-.job ul {
-    margin-top: 0.4rem;
-    padding-left: 1.2rem;
-    color: #333;
-    line-height: 1.5;
-}
-
-.job ul li {
-    margin-bottom: 0.4rem;
 }
