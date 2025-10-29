@@ -10,62 +10,69 @@
 </head>
 
 <body>
-<div class="container">
-    <h1>Prakrit Pathak</h1>
-    <p class="subtitle">Software Engineer · ML Researcher · Builder</p>
+    <div class="layout">
 
-    <p class="description">
-        I enjoy building scalable backend systems, designing clean APIs, and applying machine learning to solve
-        real-world problems.
-    </p>
+        <!-- LEFT PANEL -->
+        <aside class="sidebar">
+            <div class="intro">
+                <h1>Prakrit Pathak</h1>
+                <p class="subtitle">Software Engineer · ML Researcher · Builder</p>
+                <p class="description">
+                    I enjoy building scalable backend systems, designing clean APIs, and applying machine learning to
+                    solve real-world problems.
+                </p>
 
-    <div class="links">
-        <a href="https://github.com/prakritpathak" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/prakritpathak" target="_blank">LinkedIn</a>
-        <a href="mailto:prakrit@example.com">Email</a>
-        <a href="resume.pdf" target="_blank">Resume</a>
+                <div class="links">
+                    <a href="https://github.com/prakritpathak" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/prakritpathak" target="_blank">LinkedIn</a>
+                    <a href="mailto:prakrit@example.com">Email</a>
+                    <a href="resume.pdf" target="_blank">Resume</a>
+                </div>
+            </div>
+
+            <footer>
+                <p>© 2025 Prakrit Pathak</p>
+            </footer>
+        </aside>
+
+        <!-- RIGHT PANEL -->
+        <main class="content">
+
+            <!-- Work Experience Section -->
+            <section id="workex">
+                <h2>Work Experience</h2>
+
+                <div class="job">
+                    <h3>Software Engineer — Oracle</h3>
+                    <p class="year">2023 – Present</p>
+                    <ul>
+                        <li>Built and shipped a bunch of backend optimizations for the Region Build Bootstrap platform,
+                            cutting build timelines by more than half.</li>
+                        <li>Worked on optimizing internal pipelines with Autonomous DB, taking reporting from 4 hours
+                            down to about 5 minutes.</li>
+                        <li>Automated a ton of repetitive reporting work with custom scripts and APIs, saving the team
+                            roughly 10 hours every week.</li>
+                        <li>Built and deployed daemon workers to handle microschedules for region builds, keeping 250+
+                            service teams running smoothly during war-room operations.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Machine Learning Researcher — Georgia Tech (FSIL Lab)</h3>
+                    <p class="year">2024</p>
+                    <ul>
+                        <li>Built a bi-level model for detecting regulatory events in financial text, improving accuracy
+                            on complex real-world data.</li>
+                        <li>Used hierarchical attention networks to summarize long financial documents while keeping the
+                            important context intact.</li>
+                        <li>Experimented with unified language models for both understanding and generation, gaining
+                            solid insights into how LLMs can be applied effectively in finance tasks.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
     </div>
-
-    <hr class="divider" />
-
-    <!-- Education Section -->
-
-    <hr class="divider" />
-
-    <!-- Work Experience Section -->
-    <section id="workex">
-        <h2>Work Experience </h2>
-
-        <div class="job">
-            <h3>Software Engineer — Oracle</h3>
-            <p class="year">2023 – Present</p>
-            <ul>
-                <li>Built and shipped a bunch of backend optimizations for the Region Build Bootstrap platform, cutting build
-                timelines by more than half.</li>
-                <li>Worked on optimizing internal pipelines with Autonomous DB, taking reporting from 4 hours down to about 5 minutes.</li>
-                <li>Automated a ton of repetitive reporting work with custom scripts and APIs, saving the team roughly 10 hours every week.</li>
-                <l1>Built and deployed daemon workers to handle microschedules for region builds, keeping 250+ service teams running
-                smoothly during war-room operations.</l1>
-                </li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <h3>Machine Learning Researcher — Georgia Tech (FSIL Lab)</h3>
-            <p class="year">2024</p>
-            <ul>
-                <li>Built a bi-level model for detecting regulatory events in financial text, improving accuracy on complex real-world data.</li>
-                <li>Used hierarchical attention networks to summarize long financial documents while keeping the important context intact.</li>
-                <li>Experimented with unified language models for both understanding and generation, gaining solid insights into how LLMs
-                can be applied effectively in finance tasks.</li>
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2025 Prakrit Pathak</p>
-    </footer>
-</div>  
 </body>
 
 </html>
