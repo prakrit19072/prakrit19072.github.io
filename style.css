@@ -182,3 +182,22 @@ h2 {
         text-align: left;
     }
 }
+/* EDUCATION SECTION */
+.edu-item {
+    margin-bottom: 1.8rem;
+    margin-left: 0;
+    /* aligned with WorkEx */
+}
+
+.edu-item h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-bottom: 0.3rem;
+}
+
+.edu-item p {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin: 0.2rem 0;
+}
