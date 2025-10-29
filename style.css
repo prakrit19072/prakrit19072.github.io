@@ -111,7 +111,6 @@ h2 {
     font-size: 1.4rem;
     margin-bottom: 2rem;
     color: #fff;
-    border-left: 4px solid #66aaff;
     padding-left: 0.6rem;
 }
 
@@ -119,7 +118,6 @@ h2 {
     margin-bottom: 2rem;
     margin-left: 1.5rem;
     padding-left: 1rem;
-    border-left: 1px solid #333;
 }
 .job h3 {
     font-size: 1.1rem;
