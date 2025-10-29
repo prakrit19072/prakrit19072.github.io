@@ -104,21 +104,22 @@ footer {
 .icon-img {
     width: 26px;
     height: 26px;
-    filter: brightness(0) invert(1);
-    /* makes icons appear white on dark background */
-    transition: filter 0.3s ease, transform 0.3s ease;
+    opacity: 0.85;
+    /* subtle fade for dark mode */
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .icon-img:hover {
-    filter: brightness(1.2) invert(0.9) sepia(1) hue-rotate(180deg);
+    opacity: 1;
+    /* brighten on hover */
     transform: scale(1.1);
 }
 
-/* Codeforces logo is a bit wider, so give it special sizing */
+/* Codeforces logo wider for correct proportion */
 .codeforces-icon {
-    width: 65px;
+    width: 75px;
     height: auto;
-    filter: brightness(0) invert(1);
+    opacity: 0.9;
 }
 
 /* MAIN CONTENT (RIGHT) */
