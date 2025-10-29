@@ -219,3 +219,36 @@ h2 {
     box-shadow: 0 8px 30px rgba(102, 170, 255, 0.25);
     transition: 0.3s ease;
 }
+/* PUBLICATIONS SECTION */
+#publications {
+    margin-top: 3rem;
+}
+
+#publications ul {
+    list-style-type: none;
+    padding-left: 1rem;
+    color: #ccc;
+}
+
+#publications li {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+#publications strong {
+    color: #f2f2f2;
+}
+
+#publications em {
+    color: #ddd;
+    font-style: italic;
+}
+
+#publications a {
+    color: #66aaff;
+    text-decoration: none;
+}
+
+#publications a:hover {
+    text-decoration: underline;
+}
