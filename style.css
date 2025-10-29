@@ -252,3 +252,14 @@ h2 {
 .pub a:hover {
     text-decoration: underline;
 }
+.leetcode-icon {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+}
+
+.leetcode-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2) invert(0.9) sepia(1) hue-rotate(30deg);
+}
