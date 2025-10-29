@@ -102,24 +102,22 @@ footer {
     color: #777;
 }
 .icon-img {
-    width: 26px;
-    height: 26px;
-    opacity: 0.85;
-    /* subtle fade for dark mode */
+    width: 34px;
+    height: 34px;
+    opacity: 0.9;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .icon-img:hover {
     opacity: 1;
-    /* brighten on hover */
     transform: scale(1.1);
 }
 
-/* Codeforces logo wider for correct proportion */
+/* Codeforces logo sizing */
 .codeforces-icon {
-    width: 75px;
+    width: 48px;
     height: auto;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* MAIN CONTENT (RIGHT) */
